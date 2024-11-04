@@ -32,6 +32,7 @@ footer p{
 
 #container{
     display: flex;
+    flex-wrap: wrap;
     
 
 }
