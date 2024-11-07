@@ -29,6 +29,11 @@ footer p{
     font-size: 0.6rem;
     margin: 0.6rem;
 }
+.cartao-conteudo-pergunta{
+    padding-top: 70px;
+    font-weight: 500;
+    color: var(--cor-do-texto);
+}
 
 #container{
     display: flex;
@@ -43,6 +48,7 @@ footer p{
    background-color: #243642;
    border-radius: 0.8rem;
    height: 20rem;
+   padding: 20px;
 }
 .cartao:hover .cartao-conteudo{
     transform: rotateY(180deg);
@@ -51,8 +57,7 @@ footer p{
 .cartao-conteudo{
 
     text-align: center;
-    height: 100%;
-    padding: 20px;
+    height: 80%;
     transform-style: preserve-3d;
     transition: transform 500ms ease-in-out;
     
